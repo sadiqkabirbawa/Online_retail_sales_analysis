@@ -35,9 +35,6 @@ pip install -r requirements.txt
 python src/analyze.py
 ```
 
-## Interview explanation
-"I cleaned transaction records using transparent rules, created a revenue measure, summarized the data with SQL, calculated descriptive statistics, and created a few visualizations. I kept the analysis focused on what the data can actually support rather than making complicated predictive claims."
-
 ## Cleaning rule
 Rows missing essential fields and rows with non-positive quantity or unit price are excluded from the main revenue analysis. The rule is documented rather than hidden.
 
